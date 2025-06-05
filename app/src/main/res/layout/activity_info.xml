@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#181414"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <!-- Título principal -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="16dp"
+        android:text="Información de la App"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <!-- Contenedor con fondo y esquinas redondeadas -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#161414"
+        android:elevation="8dp"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Autores -->
+        <TextView
+            android:id="@+id/textViewAutores"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#A25B5B"
+            android:fontFamily="sans-serif-medium"
+            android:paddingBottom="8dp"
+            android:text="👨‍🎨 Desarrollado por:\n✨ Arbeloa Mariano\n✨ Díaz Emiliano\n✨ Sterba Agustina"
+            android:textColor="#121212"
+            android:textSize="18sp" />
+
+        <!-- Descripción -->
+        <TextView
+            android:id="@+id/textViewDescripcion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:lineSpacingExtra="4dp"
+            android:paddingBottom="8dp"
+            android:text="📌 Esta aplicación móvil está diseñada para gestionar una tienda de arte, facilitando la exhibición y venta de obras de artistas diversos."
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
